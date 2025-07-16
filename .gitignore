@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# VS Code editor settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+
+# Linux swap files
+*~
+*.swp
+
+# Log files
+*.log
+
+# Environment variables files
+.env
+
+# Secrets and credentials files
+secrets.json
