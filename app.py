@@ -3,8 +3,11 @@ import emoji # type: ignore
 from dotenv import load_dotenv # type: ignore
 from PyPDF2 import PdfReader # type: ignore
 from langchain.text_splitter import CharacterTextSplitter # type: ignore
-from langchain_community.embeddings import OpenAIEmbeddings # type: ignore
+#from langchain_community.embeddings import OpenAIEmbeddings # type: ignore
 from langchain_community.vectorstores import FAISS # type: ignore
+from langchain_openai import OpenAIEmbeddings # type: ignore
+#from langchain.vectorstores import FAISS # type: ignore
+
 
 def get_pdf_text(pdf_files):
     text = ""
